@@ -1,0 +1,14 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 4px solid black;
+}
+
+.button-styling {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border: 2px solid black;
+  font-size: 30px;
+}
