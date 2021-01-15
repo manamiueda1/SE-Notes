@@ -40,4 +40,4 @@ console.log(allH1s);
 
 // Create a button in index.html
 // style it a little bit: add width, height and color
-// add a event listener on click - on click, console.log('hit')
+// add an event listener on click - on click, console.log('hit')

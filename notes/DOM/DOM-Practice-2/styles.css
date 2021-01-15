@@ -23,9 +23,7 @@
   margin: 10px;
 }
 
-.column {
-  display: flex;
-  justify-content: center;
+button {
   align-items: center;
 
   width: 60px;

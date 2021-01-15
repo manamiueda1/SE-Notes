@@ -1,7 +1,7 @@
 var allButtons = document.querySelectorAll('.button');
 var screen = document.querySelector('#screen');
 var lastInput = document.querySelector('#lastInput');
-var doPercent = false;
+// var doPercent = false;
 var lastPress = '';
 
 function inputChange(event){
@@ -99,7 +99,7 @@ function doMath(){
 }
 
 function percentage(event){
-  console.log('percentage was clicked');
+  console.log(event, 'percentage was clicked');
 }
 
 function addAllEventListeners(arr){

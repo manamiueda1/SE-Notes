@@ -48,9 +48,13 @@ function addAllEventListeners(arr){
 console.log(arr)
   for(var i = 0; i < arr.length; i++){
 
-    if(arr[i].innerHTML.match(/^[0-9]*$/) && arr[i].innerHTML != ''){
-      console.log('that was a number');
-    } 
+    // if(arr[i].innerHTML.match(/^[0-9]*$/) && arr[i].innerHTML != ''){
+    //   console.log('that was a number');
+    // } 
+
+    if (arr[i].innerHTML){
+      console.log(arr[i].innerHTML)
+    }
     arr[i].addEventListener('click', inputChange);
   }
 }
