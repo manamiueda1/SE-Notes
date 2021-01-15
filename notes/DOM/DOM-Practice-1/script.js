@@ -109,10 +109,10 @@ deleteButton.addEventListener('click', deleteBox);
 
 /* -------------------------------------------------------------------------- */
 
-// exercise 
+// Exercise 
 
-//  create a button called 'add' - add some styling to it
-// create a button called 'delete' - add some styling to it
+// Create a button called 'ADD' - add some styling to it
+// Create a button called 'DELETE' - add some styling to it
 
-// add a eventListener on the add button - when the add button is clicked, render the word 'added' onto the page
-//  add a evenListener on the delete button - when the delete button is clicked, delete the word 'added' every time the delete button is clicked 
+// add an eventListener on the add button - when the add button is clicked, render the word 'added' onto the page
+// add an evenListener on the delete button - when the delete button is clicked, remove the word 'added' from the page

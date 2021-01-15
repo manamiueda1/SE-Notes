@@ -1,26 +1,30 @@
 // editing existing elements (2 steps)
   // targeting elements in HTML from JS
-  var body = document.querySelector('body');
-  var picture = document.querySelector('img');
-  var allButtons = document.querySelectorAll('button');
+  console.log('hello')
+  let body = document.querySelector('body');
+  let picture = document.querySelector('img');
+  let allButtons = document.querySelectorAll('button');
 
+  console.log(allButtons)
   // setting new features
   body.setAttribute('style', 'background-color: pink');
-  picture.setAttribute('src', 'https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067__340.png');
+  picture.setAttribute('src', 'full-moon.jpg');
   picture.setAttribute('height', '200');
 
-// adding elements to the page (3 steps)
+  // adding elements to the page (3 steps)
   // note: these elements dont exist yet
 
   // creating the elements
-  var newText = document.createElement('h1');
-  var newPara = document.createElement('p');
-  // giving them attributes
+  let newText = document.createElement('h1');
+  let newPara = document.createElement('p');
+  // giving them text
   newText.innerHTML = "Hello World!";
   newPara.innerHTML = "This is a new P element.";
   // adding them to the page
   body.appendChild(newText);
   body.appendChild(newPara);
+
+
 
 // Calculator example
 function inputChange(event){
@@ -41,7 +45,7 @@ function inputChange(event){
 }
 
 function addAllEventListeners(arr){
-
+console.log(arr)
   for(var i = 0; i < arr.length; i++){
 
     if(arr[i].innerHTML.match(/^[0-9]*$/) && arr[i].innerHTML != ''){

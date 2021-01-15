@@ -1,3 +1,7 @@
+// test to see if script.js page is properly connected to index.html
+console.log('test')
+
+document.getElementById('test').innerHTML= 'Hello World'
 // target the body
 // let body = document.body;
 let allH1s = document.querySelectorAll('h1');
