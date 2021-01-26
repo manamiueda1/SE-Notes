@@ -103,8 +103,8 @@ function deleteBox(){
 
     i --
 }
-
 boxButton.addEventListener('click', addBox); 
+
 deleteButton.addEventListener('click', deleteBox); 
 
 /* -------------------------------------------------------------------------- */

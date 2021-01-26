@@ -64,11 +64,11 @@ body {
   flex-grow: 2;
 }
 
-#top {
+.top {
   border-color: rgb(94, 151, 187);
 }
 
-#right {
+.right {
   border-color: rgb(137, 196, 142);
 }
 
